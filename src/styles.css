@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --color-black: #26262A;
+    --color-yellow: #f5b324;
+    --color-green: #cffe3e;
+    --color-blue: #00fafd;
+    --color-white: #fff;
+}
+a {
+    text-decoration: none;
+    color: unset;
+}
+li {
+    list-style-type: none;
+}

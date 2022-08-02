@@ -1,0 +1,12 @@
+.background-color{
+    background-color: var(--color-black);
+}
+.text-white{
+    color: var(--color-white) !important;
+}
+.border-form{
+    border-color: var(--color-yellow);
+}
+.font-color{
+    color: var(--color-yellow);
+}
