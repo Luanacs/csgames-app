@@ -2,3 +2,14 @@
     border: 1px var(--color-yellow);
     
 }
+.size-image{
+    width: 240px;
+   
+}
+.font-config{
+    color: var(--color-gray);
+    text-decoration: underline;
+    text-decoration-style:dotted;
+    text-decoration-color: var(--color-yellow);
+      
+}
