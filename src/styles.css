@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
     --color-black: #26262A;
+    --color-gray: #393941;    
     --color-yellow: #f5b324;
     --color-green: #cffe3e;
     --color-blue: #00fafd;
@@ -12,4 +13,7 @@ a {
 }
 li {
     list-style-type: none;
+}
+.background-color{
+    background-color: var(--color-black);
 }
