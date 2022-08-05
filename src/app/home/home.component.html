@@ -1,6 +1,8 @@
 <app-menu></app-menu>
 
-<h3 class="mt-3 d-flex justify-content-center font-config">Lançamentos</h3>
+<strong class="d-flex justify-content-center font-config titulo-destaque"
+  >Destaques</strong
+>
 
 <!-- Carousel -->
 <div class="row d-flex justify-content-center mt-3">
@@ -56,78 +58,219 @@
 
 <!-- Início NavBar Compras -->
 <div class="row d-flex justify-content-center">
-    <nav class="navbar navbar-dark bg-dark mt-5 w-50 ">
-        <img src="../../assets/store.svg" alt="Icon Loja Física" />
-        <a class="navbar-brand ml-1 mr-5" href="#"
-          >Compre na<br />
-          loja física</a
-        >
-        <img src="../../assets/shoppingcar.svg" alt="" />
-        <a class="navbar-brand ml-1 mr-5" href="#">Compre <br />pelo site</a>
-        <img src="../../assets/service.svg" alt="" />
-        <a class="navbar-brand ml-1 mr-5" href="#"
-          >Atendimento <br />
-          especializado</a
-        >
-      </nav>
+  <nav class="navbar navbar-dark bg-dark mt-5 w-50">
+    <img src="../../assets/store.svg" alt="Icon Loja Física" />
+    <a class="navbar-brand ml-1 mr-5" href="#"
+      >Compre na<br />
+      loja física</a
+    >
+    <img src="../../assets/shoppingcar.svg" alt="" />
+    <a class="navbar-brand ml-1 mr-5" href="#">Compre <br />pelo site</a>
+    <img src="../../assets/service.svg" alt="" />
+    <a class="navbar-brand ml-1 mr-5" href="#"
+      >Atendimento <br />
+      especializado</a
+    >
+  </nav>
 </div>
 <!-- Fim do navbar compras -->
 
-<h4 class="mt-5 ml-5 d-flex justify-content-start font-config">Ofertas</h4>
-
-<!-- Início dos cards -->
-<div class="container-fluid">
-    <div class="row-fluid">
-     
-        <div id="listagemProdutos" class="listagem ofertas-listagem">
-            <div class="card-deck mr-4 ml-4 mt-5">
-                <div class="card d-flex align-items-center">
-                  <img src="https://image.api.playstation.com/vulcan/ap/rnd/202010/0221/vC7trMorHJgbImp8PCQvpI0p.png" class="card-img-top mt-2 size-image" alt="Capa do jogo Horizon Zero Dawn">
-                  <div class="card-body">
-                    <h5 class="card-title">Horizon Zero Dawn</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-                <div class="card d-flex align-items-center">
-                  <img src="https://www.windows11tips.com/wp-content/uploads/2021/12/image-330.png" class="card-img-top mt-2 size-image" alt="Capa do jogo Hollow Knight">
-                  <div class="card-body">
-                    <h5 class="card-title">Hollow Knight</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nihil optio quae.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-                <div class="card d-flex align-items-center">
-                  <img src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0300/E2vZwVaDJbhLZpJo7Q10IyYo.png" class="card-img-top mt-2 size-image" alt="Capa do Jogo Stray">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-                <div class="card d-flex align-items-center">
-                    <img src="https://image.api.playstation.com/vulcan/img/rnd/202010/2618/w48z6bzefZPrRcJHc7L8SO66.png" class="card-img-top mt-2 size-image" alt="Capa do jogo The Last of Us part II">
-                    <div class="card-body">
-                      <h5 class="card-title">The Last of Us part II</h5>
-                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                  <div class="card d-flex align-items-center">
-                    <img src="https://images.kabum.com.br/produtos/fotos/192214/ori-and-the-blind-forest-definitive-edition_1627654105418_g.jpg" class="card-img-top mt-2 size-image" alt="Capa do jogo Ori The Blind Forest">
-                    <div class="card-body">
-                      <h5 class="card-title">Ori The Blind Forest</h5>
-                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla tenetur totam.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-              </div>
-        </div>
-    
-
- 
-            
-    
-    </div>
-    
+<div class="row ml-5 mt-5 d-flex align-items-center titulo-categoria">
+  <strong class="font-config mr-3">Ofertas</strong>
+  <span class="font-cards mt-2">Confira nossas ofertas imperdíveis</span>
 </div>
+
+<!-- Início dos cards Ofertas -->
+<div class="container-fluid font-cards">
+  <div class="row-fluid">
+    <div id="listagemProdutos" class="listagem ofertas-listagem">
+      <div class="card-deck mr-4 ml-4 mt-5">
+        <div class="card d-flex align-items-center">
+          <img
+            src="https://image.api.playstation.com/vulcan/ap/rnd/202010/0221/vC7trMorHJgbImp8PCQvpI0p.png"
+            class="card-img-top mt-2 size-image"
+            alt="Capa do jogo Horizon Zero Dawn"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Horizon Zero Dawn</strong></h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reprehenderit.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center">
+          <img
+            src="https://www.windows11tips.com/wp-content/uploads/2021/12/image-330.png"
+            class="card-img-top mt-2 size-image"
+            alt="Capa do jogo Hollow Knight"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Hollow Knight</strong></h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              nihil optio quae.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center">
+          <img
+            src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0300/E2vZwVaDJbhLZpJo7Q10IyYo.png"
+            class="card-img-top mt-2 size-image"
+            alt="Capa do Jogo Stray"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Card title</strong></h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center">
+          <img
+            src="https://image.api.playstation.com/vulcan/img/rnd/202010/2618/w48z6bzefZPrRcJHc7L8SO66.png"
+            class="card-img-top mt-2 size-image"
+            alt="Capa do jogo The Last of Us part II"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>The Last of Us part II</strong></h5>
+            <p class="card-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center">
+          <img
+            src="https://images.kabum.com.br/produtos/fotos/192214/ori-and-the-blind-forest-definitive-edition_1627654105418_g.jpg"
+            class="card-img-top mt-2 size-image"
+            alt="Capa do jogo Ori The Blind Forest"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Ori The Blind Forest</strong></h5>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              tenetur totam.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fim dos cards de ofertas -->
+
+<div class="row ml-5 mt-5 d-flex align-items-center titulo-categoria">
+    <strong class="font-config mr-3">Lançamentos</strong>
+    <span class="font-cards mt-2">Confira nossas ofertas imperdíveis</span>
+  </div>
+  
+  <!-- Início dos cards Lançamentos -->
+  <div class="container-fluid font-cards">
+    <div class="row-fluid">
+      <div id="listagemProdutos" class="listagem ofertas-listagem">
+        <div class="card-deck mr-4 ml-4 mt-5">
+          <div class="card d-flex align-items-center">
+            <img
+              src="https://image.api.playstation.com/vulcan/ap/rnd/202010/0221/vC7trMorHJgbImp8PCQvpI0p.png"
+              class="card-img-top mt-2 size-image"
+              alt="Capa do jogo Horizon Zero Dawn"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>Horizon Zero Dawn</strong></h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Reprehenderit.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card d-flex align-items-center">
+            <img
+              src="https://www.windows11tips.com/wp-content/uploads/2021/12/image-330.png"
+              class="card-img-top mt-2 size-image"
+              alt="Capa do jogo Hollow Knight"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>Hollow Knight</strong></h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                nihil optio quae.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card d-flex align-items-center">
+            <img
+              src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0300/E2vZwVaDJbhLZpJo7Q10IyYo.png"
+              class="card-img-top mt-2 size-image"
+              alt="Capa do Jogo Stray"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>Card title</strong></h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card d-flex align-items-center">
+            <img
+              src="https://image.api.playstation.com/vulcan/img/rnd/202010/2618/w48z6bzefZPrRcJHc7L8SO66.png"
+              class="card-img-top mt-2 size-image"
+              alt="Capa do jogo The Last of Us part II"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>The Last of Us part II</strong></h5>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card d-flex align-items-center">
+            <img
+              src="https://images.kabum.com.br/produtos/fotos/192214/ori-and-the-blind-forest-definitive-edition_1627654105418_g.jpg"
+              class="card-img-top mt-2 size-image"
+              alt="Capa do jogo Ori The Blind Forest"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><strong>Ori The Blind Forest</strong></h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                tenetur totam.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fim dos cards de lançamentos -->
+  
+  <app-footer></app-footer>
