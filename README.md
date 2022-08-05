@@ -6,7 +6,6 @@ Development of the front end of a game store through the back-end csgames-api de
 
 The following tools will be used throughout this project:
 
-- SQL
 - Java/Spring
 - AngularJS
 - Typescript
