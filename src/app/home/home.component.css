@@ -8,8 +8,26 @@
 }
 .font-config{
     color: var(--color-gray);
-    text-decoration: underline;
-    text-decoration-style:dotted;
-    text-decoration-color: var(--color-yellow);
-      
+    font-size:x-large;      
+}
+.font-cards{
+    color: var(--color-gray);
+    font-size:small; 
+    font-weight:lighter;     
+}
+.titulo-destaque{
+        border-bottom: 2px solid lightgrey !important;
+        padding-bottom: 10px !important;
+        padding-left: 0 !important;
+        background: none !important;
+        margin-top: 30px !important;
+    
+}
+.titulo-categoria{
+    border-bottom: 2px solid var(--color-yellow) !important;
+    padding-bottom: 10px !important;
+    padding-left: 0 !important;
+    background: none !important;
+    margin-top: 30px !important;
+
 }

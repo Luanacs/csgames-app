@@ -17,3 +17,6 @@ li {
 .background-color{
     background-color: var(--color-black);
 }
+.font-type{
+    font-family: 'IBM Plex Mono', monospace;
+}
