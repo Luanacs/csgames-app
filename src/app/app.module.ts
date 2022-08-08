@@ -7,6 +7,9 @@ import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { PlaystationComponent } from './playstation/playstation.component';
+import { XboxComponent } from './xbox/xbox.component';
+import { NintendoComponent } from './nintendo/nintendo.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { AboutComponent } from './about/about.component';
     MenuComponent,
     FooterComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    PlaystationComponent,
+    XboxComponent,
+    NintendoComponent
   ],
   imports: [
     BrowserModule,
