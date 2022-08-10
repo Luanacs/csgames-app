@@ -1,19 +1,22 @@
-
-.text-white{
+/* First navbar */
+.text-navbar1{
     color: var(--color-white) !important;
+    font-size: 80%;
+}
+.home-about-color{
+    color: var(--color-white);
+    font-size: 90%;
+    text-decoration: underline ;
+    text-decoration-color: var(--color-yellow);
+}
+.search-color{
+    color: var(--color-yellow);
 }
 .border-form{
     border-color: var(--color-yellow);
 }
-.font-color{
-    color: var(--color-yellow);
-}
+
+/* Second navbar */
 .background-color2{
     background-color: var(--color-gray);
-}
-.home-about-color{
-    color: var(--color-yellow);
-}
-.width-icon{
-    
 }
