@@ -1,33 +1,73 @@
-.navbar-form{
-    border: 1px var(--color-yellow);
-    
-}
-.size-image{
-    width: 240px;
-   
-}
-.font-config{
-    color: var(--color-gray);
-    font-size:x-large;      
-}
-.font-cards{
-    color: var(--color-gray);
-    font-size:small; 
-    font-weight:lighter;     
-}
+/* Geral */
 .titulo-destaque{
-        border-bottom: 2px solid lightgrey !important;
-        padding-bottom: 10px !important;
-        padding-left: 0 !important;
-        background: none !important;
-        margin-top: 30px !important;
-    
-}
-.titulo-categoria{
-    border-bottom: 2px solid var(--color-yellow) !important;
+    border-bottom: 2px solid lightgrey !important;
     padding-bottom: 10px !important;
     padding-left: 0 !important;
     background: none !important;
     margin-top: 30px !important;
 
 }
+.titulo-categoria{
+border-bottom: 2px solid var(--color-yellow) !important;
+padding-bottom: 10px !important;
+padding-left: 0 !important;
+background: none !important;
+margin-top: 30px !important;
+}
+.font-config{
+    color: var(--color-gray);
+    font-size:x-large;      
+}
+
+/* navbar */
+.navbar-form{
+    border: 1px var(--color-yellow);  
+}
+
+
+/*Cards and Horizon Scroll */
+  .card {
+    float: left;
+    max-width: 40%;
+    margin-bottom: 2rem;
+    border: 1px solid var(--color-gray);
+    flex-basis: 15%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 15px;
+  }
+  
+  .card > img {
+    margin-bottom: .1rem;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+  .card-text {
+    font-size: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  .card-title{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 90%;
+
+  }
+  .row-fluid{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .font-cards{
+    color: var(--color-gray);
+    font-size:small; 
+    font-weight:lighter;     
+}
+
