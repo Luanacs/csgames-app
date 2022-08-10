@@ -18,6 +18,14 @@ margin-top: 30px !important;
     color: var(--color-gray);
     font-size:x-large;      
 }
+/* Carousel */
+.edit-carousel{
+    border: 1px solid var(--color-gray);
+    border-radius: 10px;
+}
+.image-carousel{
+    border-radius: 10px;
+}
 
 /* navbar */
 .navbar-form{
