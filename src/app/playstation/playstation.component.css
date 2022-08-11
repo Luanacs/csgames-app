@@ -1,0 +1,6 @@
+.column-edit{
+    display: flex;
+    justify-items: left;
+    margin-left: 0;
+    margin-right: 0;
+}
