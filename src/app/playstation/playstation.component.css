@@ -1,6 +1,44 @@
+body {
+    min-height: 2000px;
+}
+
 .column-edit{
     display: flex;
     justify-items: left;
     margin-left: 0;
     margin-right: 0;
 }
+.card {
+    float: left;
+    max-width: 20%;
+    margin-bottom: 2rem;
+    border: 1px solid var(--color-gray);
+    flex-basis: 15%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 15px;
+  }
+.card > img {
+    margin-bottom: .1rem;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+  .card-text {
+    font-size: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .card-title{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 90%;
+    display: flex;
+    justify-content: center;
+
+  }
