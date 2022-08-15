@@ -12,6 +12,6 @@ The following tools will be used throughout this project:
 
 ## Marking and styling:
 
-- HTML5 <i class="fa fa-html5" aria-hidden="true"></i>
+- HTML5
 - CSS
 
