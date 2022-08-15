@@ -8,7 +8,7 @@ The following tools will be used throughout this project:
 
 - Java/Spring
 - AngularJS
-- Typescript <img align="center" alt="Luana-TypeScript" height="30" width="60" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-    badge&logo=typescript&logoColor=white">
+- Typescript <img align="center" alt="Luana-TypeScript" height="30" width="80" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-    badge&logo=typescript&logoColor=white">
 
 ## Marking and styling:
 
