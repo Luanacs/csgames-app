@@ -12,6 +12,6 @@ The following tools will be used throughout this project:
 
 ## Marking and styling:
 
-- HTML5     
-- CSS
+- HTML5  <img align="center" alt="Luana-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+- CSS <img align="center" alt="Luana-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 
